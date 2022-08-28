@@ -1,0 +1,40 @@
+{
+  "name": "udharbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrajeshPandeyOO7/udharBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrajeshPandeyOO7/udharBackend/issues"
+  },
+  "homepage": "https://github.com/BrajeshPandeyOO7/udharBackend#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.45",
+    "body-parser": "^1.20.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.9.0",
+    "ts-node": "^10.8.1"
+  }
+}
